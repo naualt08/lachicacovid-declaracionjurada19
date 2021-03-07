@@ -20,6 +20,6 @@ $carta .= "rta 3: $respuesta3 \n";
 $carta .= "rta 4: $respuesta4 \n";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html');
+header('Location:https://naualt08.github.io/msj/')
 
 ?>
