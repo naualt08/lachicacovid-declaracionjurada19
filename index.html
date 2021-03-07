@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>LA CHICA COVID</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> yamilaltamirano@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +54 9 (3541) 68-1173</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>DECLARACION JURADA COVID-19</h2>
+            <div class="user_info">
+
+                <label for="names">Nombre Apellido *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular *</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="formulario">Tiene antecedentes de viaje al exterior en los últimos 14 días si/no *</label>
+                <input type="text" id="respuesta" name="respuesta1" required>
+
+                <label for="formulario">Usted ha tenido contacto estrecho con alguna persona enferma
+o caso sospechoso de Coronavirus (Covid-19) en los últimos 14 días.
+ si/no *</label>
+                <input type="text" id="respuesta2" name="respuesta2" required>
+
+                <label for="formulario">Ha presentado durante los últimos 14 días los siguientes síntomas:
+Fiebre (37,5 o más), tos, dolor de garganta, problemas para respirar,
+ anosmia o disgeusia (alteraciones en el gusto u olfato).
+ si/no *</label>
+                <input type="text" id="respuesta3" name="respuesta3" required>
+
+                <label for="formulario">Tiene antecedente de Patología Crónica
+(Asma, diabetes, patologías cardiacas, otra) si/no*</label>
+                <input type="text" id="respuesta4" name="respuesta4">
+
+                <h2>DECLARO QUE LOS DATOS APORTADOS SON CORRECTOS Y ME COMPROMETO A NOTIFICAR AL DEPARTAMENTO DE SERVICIO MEDICO CUALQUIER MODIFICACION EN LOS MISMOS.</h2>
+
+
+
+                <input type="submit" value="Enviar Declaracion" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
