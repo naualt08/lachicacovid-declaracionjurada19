@@ -23,5 +23,5 @@ $carta .= "rta 4: $respuesta4 \n";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
 echo "<script>alert('correo enviado exitosamente'</script>");
-echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
+echo "<script> setTimeout(\"location.href='https://naualt08.github.io/lachicacovid-declaracionjurada19/'\",1000)</script>";
 ?>
