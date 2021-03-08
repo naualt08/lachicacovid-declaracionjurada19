@@ -20,6 +20,6 @@ $carta .= "respuesta3: $respuesta3 \n";
 $carta .= "respuesta4: $respuesta4";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html')
+header('Location:mensaje-de-envio.html');
 
 ?>
