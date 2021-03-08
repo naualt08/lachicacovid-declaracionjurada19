@@ -1,5 +1,7 @@
 <?php
 
+$destinatario = "yamilaltamirano@gmail.com";
+
 // Llamando a los campos
 $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono'];
@@ -9,7 +11,7 @@ $respuesta3 = $_POST['respuesta3'];
 $respuesta1 = $_POST['respuesta4'];
 
 // Datos para el correo
-$destinatario = "yamilaltamirano@gmail.com";
+
 $asunto = "Declaracion Jurada web";
 
 $carta = "De: $nombre \n";
@@ -20,6 +22,6 @@ $carta .= "rta 3: $respuesta3 \n";
 $carta .= "rta 4: $respuesta4 \n";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html');
-
+echo "<script>alert('correo enviado exitosamente'</script>");
+echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
 ?>
