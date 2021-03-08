@@ -8,7 +8,7 @@ $telefono = $_POST['telefono'];
 $respuesta1 = $_POST['respuesta1'];
 $respuesta2 = $_POST['respuesta2'];
 $respuesta3 = $_POST['respuesta3'];
-$respuesta1 = $_POST['respuesta4'];
+$respuesta4 = $_POST['respuesta4'];
 
 // Datos para el correo
 
